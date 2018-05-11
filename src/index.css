@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Lucida Grande", sans-serif;
+  color: hsl(350, 5%, 50%);
+  background-color: white;
+}
+
+h1 {
+  font-family: georgia, serif;
+  font-size: 2.4rem;
+  color: hsl(350, 5%, 30%);
+}
+
+h1, p {
+  margin-bottom: .75rem;
+}
+
+p {
+  font-style: italic;
+}
+
+main {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+button {
+  border: 4px solid hsl(350, 0%, 30%);
+  color: hsl(350, 0%, 30%);
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  font-weight:bold;
+  width: 100%;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: white;
+}
+
+input {
+  width: 100%;
+  line-height: 3rem;
+  font-size: 2rem;
+  border: none;
+  color: hsl(350, 0%, 30%);
+  margin: 2.5rem 0;
+}
+
+@media only screen and (min-width: 961px) {
+  main {
+    width: 960px;
+    padding: 1.25rem;
+    margin: 0 auto;
+  }
+}
